@@ -38,9 +38,10 @@ class tareaController extends Controller
      */
     public function store(Request $request)
     {
-        $tarea= new Tarea();
-        $tarea->titulo=$request->titulo;
-        $tarea->descripcion=$request->descripcion;
+        $tarea = new Tarea();
+        $tarea -> name = $request -> name;
+        $tarea -> description = $request -> description;
+        $tarea -> completed = $request -> completed;
 
         $tarea->save();
     }
@@ -77,10 +78,11 @@ class tareaController extends Controller
     public function update(Request $request)
     {
         $tarea= Tarea::findOrFail($request->id);
-        $tarea->titulo=$request->titulo;
-        $tarea->descripcion=$request->descripcion;
+        $tarea->name = $request->name;
+        $tarea->description = $request->description;
+        $tarea->completed = $request->completed;
 
-        $tarea->save();
+       $tarea->save();
 
         return $tarea;
     }
