@@ -15,11 +15,10 @@ Esta es la api construida en laravel la cual es uno de los primeros proyectos de
 ## Pasos
 
 1 - en el directorio `.env` se podra agregar las credenciales de acceso a la base de datos
-`
-DB_CONNECTION=mysql
+
+``DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=apitaskmanager
 DB_USERNAME=root
-DB_PASSWORD=
-`
+DB_PASSWORD=``
