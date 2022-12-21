@@ -28,3 +28,8 @@ DB_USERNAME=root
 
 DB_PASSWORD=
 ```
+En este caso solo deben colocar sus credenciales en lugar de las que estan en el ejemplo
+
+- 2 Ejecutar en la ventana de comando teniendo estando dentro del proyecto el comando `php artisan migrate`
+
+- 3 Ejecutar `php artisan serve` para levantar el servidor de la api
