@@ -12,24 +12,28 @@ Esta es la api construida en laravel la cual es uno de los primeros proyectos de
 
 - 2 tener instalado Php en el Ordenador con composer para levantar el entorno de laravel.
 - 3 tener instalado node
+- 4 tener instalado Git
 
 ## Pasos
+1- con la ventana de comando nos posicionamos dentro de la carpeta del proyecto y ejecutamos la siguiente linea `composer install` 
 
-3 - en el directorio `.env` se podra agregar las credenciales de acceso a la base de datos
+2- luego procedemos a ejecutar `npm install`
+
+3 - en el directorio hay un archivo llamado `.env.example`, puede copiar el archivo y cambiar el nombre o cambiar el nombre de `env.example` por `env` luego dentro de este ,  se podra agregar las credenciales de acceso a la base de datos
 
 ```DB_CONNECTION=mysql
 
-DB_HOST=127.0.0.1
+DB_HOST=127.0.0.1 //direccion donde esta la base de datos 
 
-DB_PORT=3306
+DB_PORT=3306 // puerto donde esta la base de datos mysql
 
-DB_DATABASE=apitaskmanager
+DB_DATABASE=apitaskmanager // este no se cambia
 
-DB_USERNAME=root
+DB_USERNAME=root // usuario para entrar en el entorno mysql
 
-DB_PASSWORD=
+DB_PASSWORD=    // contraseña en caso que la tenga sino dejarlo vacio
 ```
-En este caso solo deben colocar sus credenciales en lugar de las que estan en el ejemplo
+En este caso solo deben colocar sus credenciales en lugar de las que estan en el ejemplo y adicionalmente crear una base de datos con el nombre de `apitaskmanager` en mysql 
 
 - 4 Ejecutar en la ventana de comando teniendo estando dentro del proyecto el comando `php artisan migrate`
 
