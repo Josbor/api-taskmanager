@@ -14,4 +14,4 @@ Esta es la api construida en laravel la cual es uno de los primeros proyectos de
 
 ## Pasos
 
-1 - en el directorio .env se podra agregar las credenciales de acceso a la base de datos
+1 - en el directorio `.env` se podra agregar las credenciales de acceso a la base de datos
