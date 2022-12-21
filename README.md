@@ -33,3 +33,7 @@ En este caso solo deben colocar sus credenciales en lugar de las que estan en el
 - 2 Ejecutar en la ventana de comando teniendo estando dentro del proyecto el comando `php artisan migrate`
 
 - 3 Ejecutar `php artisan serve` para levantar el servidor de la api
+
+- 4 una vez levantado el servidor , copiar la direccion y puerto donde se levanta el serve e ir al siguiente enlace para levantar la app (proyecto frontend)
+
+[proyecto FrontEnd](https://github.com/Josbor/task-mamanger)
