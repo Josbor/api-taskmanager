@@ -10,11 +10,12 @@ Esta es la api construida en laravel la cual es uno de los primeros proyectos de
 
 - 1 Tener Mysql Instalado en el ordenador y levantado ya sea con una version xampp o la version cummunity de Mysql .. sugeriblemente recomiendo la version de xampp
 
-- 2 tener instalado Php en el Ordenado con composer para levantar el entorno de laravel.
+- 2 tener instalado Php en el Ordenador con composer para levantar el entorno de laravel.
+- 3 tener instalado node
 
 ## Pasos
 
-1 - en el directorio `.env` se podra agregar las credenciales de acceso a la base de datos
+3 - en el directorio `.env` se podra agregar las credenciales de acceso a la base de datos
 
 ```DB_CONNECTION=mysql
 
@@ -30,10 +31,10 @@ DB_PASSWORD=
 ```
 En este caso solo deben colocar sus credenciales en lugar de las que estan en el ejemplo
 
-- 2 Ejecutar en la ventana de comando teniendo estando dentro del proyecto el comando `php artisan migrate`
+- 4 Ejecutar en la ventana de comando teniendo estando dentro del proyecto el comando `php artisan migrate`
 
-- 3 Ejecutar `php artisan serve` para levantar el servidor de la api
+- 5 Ejecutar `php artisan serve` para levantar el servidor de la api
 
-- 4 una vez levantado el servidor , copiar la direccion y puerto donde se levanta el serve e ir al siguiente enlace para levantar la app (proyecto frontend)
+- 6 una vez levantado el servidor , copiar la direccion y puerto donde se levanta el serve e ir al siguiente enlace para levantar la app (proyecto frontend)
 
 [proyecto FrontEnd](https://github.com/Josbor/task-mamanger)
