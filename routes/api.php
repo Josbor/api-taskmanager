@@ -19,7 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::get('/tareas','App\Http\Controllers\TareaController@index');//mostrar todos los registros
+Route::get('/tareas',['App\Http\Controllers\TareaController'::class,'index']);//mostrar todos los registros
 Route::post('/tareas','App\Http\Controllers\TareaController@store');// crear un registro
 Route::put('/tareas/{id}','App\Http\Controllers\TareaController@update');// Actualizar un registro
 Route::delete('/tareas/{id}','App\Http\Controllers\TareaController@destroy');// Actualizar un registro

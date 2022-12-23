@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Tarea;
 
-class tareaController extends Controller
+class TareaController extends Controller
 {
     /**
      * Display a listing of the resource.
